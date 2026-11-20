@@ -33,5 +33,7 @@ public class TicketReservation {
     @Column(nullable = false)
     private LocalDateTime createdAt = LocalDateTime.now();
 
+    @Column(unique = true)
+    private String idempotencyKey;
 }
 
