@@ -2,7 +2,6 @@ package com.Project1.Resume.controller;
 
 import com.Project1.Resume.entity.TicketReservation;
 import com.Project1.Resume.service.EventService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -48,7 +48,7 @@ public class EventService {
             reservation.setEventId(eventId);
             reservation.setUserId(userId);
             reservation.setStatus(ReservationStatus.PENDING);
-            reservation.setExpiresAt(LocalDateTime.now().plusSeconds(15));
+            reservation.setExpiresAt(LocalDateTime.now().plusMinutes(5));
             reservation.setCreatedAt(LocalDateTime.now());
             reservation.setIdempotencyKey(idempotencyKey);
 
